@@ -1,0 +1,43 @@
+.app {
+  width: 100%;
+  border: 1px solid black;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+.edit {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.edit input {
+  margin-top: 10px;
+  height: 30px;
+}
+
+.edit label {
+  margin-top: 10px;
+}
+
+.edit button {
+  margin-top: 30px;
+  height: 40px;
+  font-size: 18px;
+}
+
+.list .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  border-bottom: solid 1px black;
+}
+
+.list .item button {
+  background-color: lightcoral;
+  width: 80px;
+  height: 40px;
+  font-size: 15px;
+}
